@@ -18,8 +18,10 @@
         */
     })
 </script>
+```
 
 > Set Date Element 
+
 ```javascript
     $(element).simpleDate({
         start:the set start each date,
@@ -31,6 +33,4 @@
     //get element date Object
     $(element).getSimpleDate()
     
-```
-
 ```
