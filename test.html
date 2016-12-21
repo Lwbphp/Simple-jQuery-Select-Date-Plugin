@@ -6,19 +6,17 @@
 </head>
 <body>
     <div id="app"></div>
-    <button id="getDate">时间</button>
-    <div id="app2"></div>
+    <button id="getDate">get selected Date</button>
     <script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
     <script src="./src/simple_date.js"></script>
     <script>
-        $("#app").simpleDate();
-        $("#app2").simpleDate({
+        $("#app").simpleDate({
             start:'2016-1-2',
             end:'2017-1-20',
             selected:'2016-12-30'
         });
         $('#getDate').click(function(){
-            console.log($("#app2").getSimpleDate());
+            console.log($("#app").getSimpleDate());
         })
     </script>
 </body>

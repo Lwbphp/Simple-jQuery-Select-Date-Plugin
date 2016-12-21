@@ -17,7 +17,20 @@
             {date: "2017-1-1", year: "2017", month: "1", day: "1"}
         */
     })
-
 </script>
+
+> Set Date Element 
+```javascript
+    $(element).simpleDate({
+        start:the set start each date,
+        end: the set each end date,
+        selected: current selected date   
+    })
+
+    //And the caller is the same element
+    //get element date Object
+    $(element).getSimpleDate()
+    
+```
 
 ```
